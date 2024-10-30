@@ -81,11 +81,11 @@ function Product() {
           <div className='flex flex-col space-y-3 w-full al'>
             <div className='text-xs text-gray-500 font-light'>50 pcs in stock</div>
             <div className='flex flex-col items-center justify-start gap-3 md:flex-row'>
-              <button className='w-full py-3 rounded-md border-2 border-gray-300 text-center text-gray-700 text-sm font-medium md:w-[50%] shadow-sm hover:shadow-lg'>
+              <button className='w-full py-3 rounded-md border-2 border-gray-300 text-center text-gray-700 text-sm font-medium md:w-[50%] shadow-sm hover:shadow-lg active:-translate-y-0.5 transition-all duration-150'>
                 <Image src="/images/heart.png" alt="button icon" width={"25"} height={"25"} className='inline-block mr-2' />
                 Add to wishlist
               </button>
-              <button className='w-full py-3 rounded-md border-2 border-gray-300 text-center text-gray-700 text-sm font-medium shadow-sm md:w-[50%] hover:shadow-lg'>
+              <button className='w-full py-3 rounded-md border-2 border-gray-300 text-center text-gray-700 text-sm font-medium shadow-sm md:w-[50%] hover:shadow-lg active:-translate-y-0.5 transition-all duration-150'>
                 <Image src="/images/weight.png" alt="button icon" width={"25"} height={"25"} className='inline-block mr-2' />
                 Add to cart
               </button>
