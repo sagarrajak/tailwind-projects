@@ -24,13 +24,13 @@ function LoginMode() {
       flex-col
       md:flex-row
       gap-2
-      max-w-[750px]]
+      max-w-[750px]
       bg-[url('/images/login-model/image.jpg')]
       bg-cover
       bg-center
       bg-no-repeat
       ">
-        <div className='w-full p-5 md:p-12 bg-white box-border flex-1'>
+        <div className='w-full p-5 md:p-16 bg-white box-border flex-1'>
           <div className='w-full flex flex-col justify-start gap-4'>
             {/* Header */}
             <div className='flex flex-row justify-between items-center'>
