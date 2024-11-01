@@ -14,8 +14,9 @@ function Product() {
     >
       <div
         className="
-       bg-white
-       shadow-md rounded-md
+        bg-white
+        shadow-md
+        rounded-md
         shadow-slate-300
         md:w-[70%]
         md:h-[70%]
