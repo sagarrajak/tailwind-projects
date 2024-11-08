@@ -2,8 +2,16 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { config } from '@fortawesome/fontawesome-svg-core';
-import '@fortawesome/fontawesome-svg-core/styles.css'; // Import Font Awesome CSS
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { Bai_Jamjuree } from 'next/font/google'
+// Import Font Awesome CSS
 config.autoAddCss = false;
+
+const baiJamjure = Bai_Jamjuree({
+  weight: ['200', '300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+  variable: '--font-sans'
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${baiJamjure.variable} antialiased`}
       >
         {children}
       </body>
