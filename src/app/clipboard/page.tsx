@@ -8,6 +8,7 @@ import AccessAnyWhere from '@/components/clipboard/AccessAnyWhere';
 import SuperChargeSection from '@/components/clipboard/SuperChargeSection';
 import Companies from '@/components/clipboard/Companies';
 import ClipboardContainer from '@/components/clipboard/ClipboardContainer';
+import Footer from '@/components/clipboard/Footer';
 
 export const metadata: Metadata = {
   title: 'Clipboard website',
@@ -41,6 +42,7 @@ function ClipBoard() {
       <SuperChargeSection />
       <Companies/>
       <ClipboardContainer/>
+      <Footer/>
     </div>
   )
 }
