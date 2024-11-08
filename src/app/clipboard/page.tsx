@@ -6,6 +6,8 @@ import { Metadata } from 'next';
 import Features from '@/components/clipboard/Features';
 import AccessAnyWhere from '@/components/clipboard/AccessAnyWhere';
 import SuperChargeSection from '@/components/clipboard/SuperChargeSection';
+import Companies from '@/components/clipboard/Companies';
+import ClipboardContainer from '@/components/clipboard/ClipboardContainer';
 
 export const metadata: Metadata = {
   title: 'Clipboard website',
@@ -37,6 +39,8 @@ function ClipBoard() {
       <Features/>
       <AccessAnyWhere />
       <SuperChargeSection />
+      <Companies/>
+      <ClipboardContainer/>
     </div>
   )
 }
