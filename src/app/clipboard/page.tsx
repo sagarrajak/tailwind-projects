@@ -5,6 +5,7 @@ import Snippets from '@/components/clipboard/Snippets';
 import { Metadata } from 'next';
 import Features from '@/components/clipboard/Features';
 import AccessAnyWhere from '@/components/clipboard/AccessAnyWhere';
+import SuperChargeSection from '@/components/clipboard/SuperChargeSection';
 
 export const metadata: Metadata = {
   title: 'Clipboard website',
@@ -35,6 +36,7 @@ function ClipBoard() {
       <Snippets />
       <Features/>
       <AccessAnyWhere />
+      <SuperChargeSection />
     </div>
   )
 }
