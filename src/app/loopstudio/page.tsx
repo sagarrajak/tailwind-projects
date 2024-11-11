@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import FeatureLoopStudio from '@/components/loopstudio/FeatureLoopStudio'
+import CreatonsSection from '@/components/loopstudio/CreatonsSection'
 
 function LoopStudio() {
   return (
@@ -79,6 +80,7 @@ function LoopStudio() {
         </div>
       </section>
       <FeatureLoopStudio />
+      <CreatonsSection/>
     </>
 
   )

@@ -26,7 +26,7 @@ const config: Config = {
         sans: ['Bai Jamjuree', 'sans-serif'],
         josefin: ['Josefin Sans'],
         alata: ['alata']
-      }
+      },
     },
   },
   plugins: [],

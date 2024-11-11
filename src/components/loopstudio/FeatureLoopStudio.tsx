@@ -29,8 +29,8 @@ function FeatureLoopStudio() {
         <Image
           src={"/images/loopstudio/desktop/image-interactive.jpg"}
           alt='Interactive image'
-          width={1000}
-          height={1000}
+          width={750}
+          height={750}
           className='
             transform
             transition-transform
