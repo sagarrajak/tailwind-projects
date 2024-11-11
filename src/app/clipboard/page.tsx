@@ -37,12 +37,12 @@ function ClipBoard() {
         </div>
       </section>
       <Snippets />
-      <Features/>
+      <Features />
       <AccessAnyWhere />
       <SuperChargeSection />
-      <Companies/>
-      <ClipboardContainer/>
-      <Footer/>
+      <Companies />
+      <ClipboardContainer />
+      <Footer />
     </div>
   )
 }

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { Bai_Jamjuree } from 'next/font/google'
+import { Josefin_Sans } from "next/font/google";
+import { Alata } from "next/font/google";
 // Import Font Awesome CSS
 config.autoAddCss = false;
 
@@ -13,15 +14,16 @@ const baiJamjure = Bai_Jamjuree({
   variable: '--font-sans'
 });
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const fontJoseFIn = Josefin_Sans({
+  weight: ['200', '300', '400', '500', '600', '700'],
+  subsets: ['latin'],
+variable: '--font-josefin'
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+
+const AlataFont = Alata({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--font-alata'
 });
 
 export const metadata: Metadata = {
@@ -37,7 +39,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${baiJamjure.variable} antialiased`}
+        className={`${baiJamjure.variable} ${fontJoseFIn.variable}
+        ${AlataFont.variable} antialiased`}
       >
         {children}
       </body>

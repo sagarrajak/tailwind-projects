@@ -23,7 +23,9 @@ const config: Config = {
         foreground: 'var(--foreground)',
       },
       fontFamily: {
-        sans: ['Bai Jamjuree', 'sans-serif']
+        sans: ['Bai Jamjuree', 'sans-serif'],
+        josefin: ['Josefin Sans'],
+        alata: ['alata']
       }
     },
   },
